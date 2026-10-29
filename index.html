@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yacine Tiar | TIMELINE.VISION</title>
+<meta name="description" content="Yacine Tiar, film director and creative director. Commercials, content creation and event videos by TIMELINE.VISION.">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Titles: Inter Tight. Plus Jakarta Sans is only a fallback for the body text. -->
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- Body text: General Sans (Fontshare) -->
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-lens" aria-hidden="true"><div class="bg-lens-grid"></div></div>
+
+<!-- Intro: says hello in a few languages, then slides up (the words are in script.js) -->
+<div class="loading-screen" id="loadingScreen" aria-hidden="true">
+  <p class="intro-word"><span class="intro-text">hello</span><span class="intro-dot"></span></p>
+</div>
+
+<!-- Sidebar Navigation (Desktop) -->
+<nav class="sidebar" aria-label="Main navigation">
+  <a class="sidebar-header" href="#home">
+    <span class="logo-icon" aria-hidden="true"><span>T<span class="punct">.</span></span></span>
+    <span class="logo-text">TIMELINE<span class="punct">.</span>VISION</span>
+  </a>
+  <ul class="sidebar-menu">
+    <li><a href="#home" class="active" aria-current="location"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg><span class="link-text">Home</span></a></li>
+    <li><a href="#services"><svg class="icon" aria-hidden="true"><use href="#i-clapper"/></svg><span class="link-text">Services</span></a></li>
+    <li><a href="#my-work"><svg class="icon" aria-hidden="true"><use href="#i-film"/></svg><span class="link-text">Work</span></a></li>
+    <li><a href="#contact"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><span class="link-text">Contact</span></a></li>
+  </ul>
+  <div class="sidebar-foot">
+    <a href="https://www.instagram.com/yacine__tr/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg><span class="link-text">@yacine__tr</span></a>
+    <a href="https://www.instagram.com/timeline.vision/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg><span class="link-text">@timeline.vision</span></a>
+  </div>
+</nav>
+
+<!-- Mobile Bottom Navigation -->
+<nav class="mobile-nav" aria-label="Navigation">
+  <a href="#home" class="mobile-link active" aria-current="location"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg><span>Home</span></a>
+  <a href="#services" class="mobile-link"><svg class="icon" aria-hidden="true"><use href="#i-clapper"/></svg><span>Services</span></a>
+  <a href="#my-work" class="mobile-link"><svg class="icon" aria-hidden="true"><use href="#i-film"/></svg><span>Work</span></a>
+  <a href="#contact" class="mobile-link"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><span>Contact</span></a>
+</nav>
+
+<div class="page">
+<main class="main-content" id="main">
+
+  <!-- Hero Section -->
+  <section class="hero" id="home" data-nav-section>
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge"><span class="pulse" aria-hidden="true"></span><span>Available for new projects</span></div>
+        <h1 class="hero-title">
+          <span class="title-line"><span>my</span></span>
+          <span class="title-line"><span>portfolio<span class="punct">.</span></span></span>
+        </h1>
+        <p class="hero-subtitle">Creative Director, Film Director &amp; Senior Video Editor</p>
+        <p class="hero-description">Let’s create your commercials, social media content and event videos.</p>
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-primary">Explore services</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <div class="ripples" aria-hidden="true"><span></span><span></span><span></span></div>
+        <button class="hero-figure" id="heroFigure" type="button" aria-haspopup="dialog" aria-controls="focus" aria-expanded="false" aria-label="About me">
+          <!-- Portrait (3:4) -->
+          <img id="heroImage" src="images/hero.jpg" alt="Yacine Tiar" width="810" height="1080">
+          <span class="figure-chip" aria-hidden="true"><svg class="icon"><use href="#i-expand"/></svg>About me</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section services" id="services" data-nav-section>
+    <div class="container section-head">
+      <h2 class="section-title">what we do<span class="punct">.</span></h2>
+      <p class="section-lead">Commercials, social media content and event videos: a selection of recent projects.</p>
+    </div>
+
+    <article class="reel reel--spot">
+      <div class="container reel-head">
+        <h3 class="reel-title">Commercials</h3>
+        <p class="reel-desc">Short, punchy ads for brands and businesses.</p>
+      </div>
+      <div class="marquee" data-dir="left">
+        <div class="marquee-track">
+          <ul class="marquee-list">
+            <!-- Built by the script from SPOT_VIDEOS: one card per video -->
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <article class="reel reel--content">
+      <div class="container reel-head">
+        <h3 class="reel-title">Content creation</h3>
+        <p class="reel-desc">Vertical content made for Instagram, TikTok and social media.</p>
+      </div>
+      <div class="marquee" data-dir="right">
+        <div class="marquee-track">
+          <ul class="marquee-list">
+            <!-- Built by the script from CONTENT_VIDEOS: one card per video -->
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <article class="reel reel--event">
+      <div class="container reel-head">
+        <h3 class="reel-title">Events</h3>
+        <p class="reel-desc">Recap videos to relive and share your events.</p>
+      </div>
+      <div class="marquee" data-dir="left">
+        <div class="marquee-track">
+          <ul class="marquee-list">
+            <!-- Built by the script from EVENT_VIDEOS: one card per video -->
+          </ul>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+  <!-- My Work Section -->
+  <section class="section work my-work-section" id="my-work" data-nav-section>
+    <div class="container section-head my-work-header">
+      <h2 class="section-title">be part of our work<span class="punct">.</span></h2>
+      <div class="section-aside">
+        <p class="section-lead">Commercials, content, events: every project has found its place here. The next one could be yours.</p>
+        <a href="#contact" class="btn btn-primary">Start a project</a>
+      </div>
+    </div>
+    <div class="my-work-grid-container">
+      <div class="noscroll">
+        <div class="intro">
+          <div class="gridMotion-container" id="gridMotion-container">
+            <!-- Rows generated by JS: a rotated grid on wide screens, scroll-driven strips on phones -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact" data-nav-section>
+    <div class="container contact-grid">
+      <div class="contact-main">
+        <h2 class="section-title">let’s bring your idea to life<span class="punct">.</span></h2>
+        <p class="section-lead">A commercial, content or an event to film? Let’s talk about your project on WhatsApp or Instagram.</p>
+        <ul class="contact-list">
+          <li class="contact-wide">
+            <a class="contact-item" href="https://wa.me/213795262610" target="_blank" rel="noopener">
+              <span class="ci-icon"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg></span>
+              <span class="ci-text"><span class="ci-label">WhatsApp &amp; calls</span><span class="ci-value">+213&nbsp;795&nbsp;26&nbsp;26&nbsp;10</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-item" href="https://www.instagram.com/yacine__tr/" target="_blank" rel="noopener" data-insta="perso">
+              <span class="ci-icon"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></span>
+              <span class="ci-text"><span class="ci-label">Personal Instagram</span><span class="ci-value">@yacine__tr</span></span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-item" href="https://www.instagram.com/timeline.vision/" target="_blank" rel="noopener" data-insta="time">
+              <span class="ci-icon"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></span>
+              <span class="ci-text"><span class="ci-label">Agency Instagram</span><span class="ci-value">@timeline.vision</span></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <aside class="contact-card" aria-label="Quick contact">
+        <div>
+          <p class="cc-title">got an idea<span class="punct">?</span></p>
+          <p class="cc-text">Send me a message on WhatsApp or give me a call. I’d love to hear about it.</p>
+        </div>
+        <div class="cc-actions">
+          <a class="btn btn-light" href="tel:+213795262610"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Call me</a>
+          <a class="btn btn-line-light" href="https://wa.me/213795262610" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>WhatsApp</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="footer-logo" href="#home"><span class="logo-icon" aria-hidden="true"><span>T<span class="punct">.</span></span></span><span class="logo-text">TIMELINE<span class="punct">.</span>VISION</span></a>
+      <p>TIMELINE<span class="punct">.</span>VISION: commercials, social media content and event videos, from concept to final cut.</p>
+      <a class="footer-social" href="https://www.instagram.com/timeline.vision/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg>@timeline.vision</a>
+    </div>
+    <nav class="footer-col" aria-label="Explore">
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#my-work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <nav class="footer-col" aria-label="Services">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#services">Commercials</a></li>
+        <li><a href="#services">Content creation</a></li>
+        <li><a href="#services">Events</a></li>
+      </ul>
+    </nav>
+    <div class="footer-col">
+      <h3>Get in touch</h3>
+      <ul>
+        <li><a href="tel:+213795262610">+213&nbsp;795&nbsp;26&nbsp;26&nbsp;10</a></li>
+        <li><a href="https://wa.me/213795262610" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="https://www.instagram.com/yacine__tr/" target="_blank" rel="noopener" data-insta="perso">@yacine__tr</a></li>
+        <li><a href="https://www.instagram.com/timeline.vision/" target="_blank" rel="noopener" data-insta="time">@timeline.vision</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span id="year">2026</span> TIMELINE<span class="punct">.</span>VISION. All rights reserved.</p>
+    <nav class="footer-legal" aria-label="Legal">
+      <a href="#home">Privacy</a>
+      <a href="#home">Terms</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</footer>
+</div>
+
+<a class="chat-fab" href="https://wa.me/213795262610" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg><span>Chat with us</span></a>
+
+<!-- Focus view for the hero image -->
+<div class="focus" id="focus" role="dialog" aria-modal="true" aria-labelledby="focusTitle" data-state="from" data-mode="h" hidden>
+  <div class="focus-backdrop" data-close></div>
+  <button class="focus-close" type="button" aria-label="Close" data-close><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+  <div class="focus-stage">
+    <div class="focus-media" data-close><img id="focusImage" alt=""></div>
+    <article class="focus-panel">
+      <div class="panel-inner">
+        <h2 class="panel-title" id="focusTitle">about me<span class="punct">.</span></h2>
+        <p class="panel-sub">Yacine Tiar, Creative Director &amp; Marketer</p>
+        <p>I’m a film director and senior video editor based in Algiers, and the founder of TIMELINE<span class="punct">.</span>VISION, a full-service video production company with its own studio.</p>
+        <p>I’ve directed and edited campaigns for brands like Samsung, Clear, Tecno Mobile and Laboratoires Venus, from concept and storyboard to shooting, color grading and motion graphics.</p>
+        <dl class="panel-meta">
+          <div><dt>Tools</dt><dd>Premiere Pro, After Effects</dd></div>
+          <div><dt>Languages</dt><dd>Arabic, French, English</dd></div>
+          <div><dt>Skills</dt><dd>Directing, editing, color grading, motion graphics</dd></div>
+        </dl>
+        <div class="panel-actions">
+          <a class="btn btn-primary" href="cv/Yacine_Tiar_CV.pdf" target="_blank" rel="noopener">View my CV (PDF)</a>
+          <a class="btn btn-ghost" href="#contact" data-close-nav>Contact me</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+
+<!-- YouTube lightbox: opened by any element with data-youtube="VIDEO_ID" -->
+<div class="yt-modal" id="ytModal" role="dialog" aria-modal="true" aria-label="Video player" hidden>
+  <div class="yt-backdrop" data-yt-close></div>
+  <button class="yt-close" type="button" aria-label="Close video" data-yt-close><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+  <div class="yt-box">
+    <div class="yt-frame"></div>
+    <a class="yt-open" href="https://www.youtube.com/" target="_blank" rel="noopener">Open on YouTube</a>
+  </div>
+</div>
+
+<!-- Icons -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3.5 10.2 12 3.5l8.5 6.7"/><path d="M5.5 8.8v11.7h13V8.8"/><path d="M9.8 20.5v-5.8h4.4v5.8"/></symbol>
+    <symbol id="i-clapper" viewBox="0 0 24 24"><rect x="3.5" y="10.5" width="17" height="10" rx="1.6"/><path d="m3.6 10.4-.7-3.2 15.5-3.4.7 3.2z"/><path d="m8 6.2 2.2 2.8M12.6 5.2l2.2 2.8"/></symbol>
+    <symbol id="i-film" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="15" rx="3"/><path d="M10.2 9.2v5.6l4.6-2.8z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.2"/><path d="m3.8 6.6 8.2 6.2 8.2-6.2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M21.5 16.9v2.9a1.9 1.9 0 0 1-2.1 1.9 18.8 18.8 0 0 1-8.2-2.9 18.5 18.5 0 0 1-5.7-5.7A18.8 18.8 0 0 1 2.6 4.8a1.9 1.9 0 0 1 1.9-2.1h2.9a1.9 1.9 0 0 1 1.9 1.6c.1.9.3 1.8.7 2.7a1.9 1.9 0 0 1-.4 2L8.3 10.2a15.2 15.2 0 0 0 5.7 5.7l1.2-1.2a1.9 1.9 0 0 1 2-.4c.9.3 1.8.6 2.7.7a1.9 1.9 0 0 1 1.6 1.9z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2.5 21.5z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.2V12l3.2 2"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.6v12.8a.8.8 0 0 0 1.2.7l10.3-6.4a.8.8 0 0 0 0-1.4L9.2 4.9a.8.8 0 0 0-1.2.7z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M14.5 3.5h6v6M9.5 20.5h-6v-6M20.5 3.5l-7 7M3.5 20.5l7-7"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  </defs>
+</svg>
+
+<script src="videos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
